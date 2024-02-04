@@ -34,7 +34,7 @@ nav ul li a {
 }
 
 h1 {
-    font-size: 8em;
+    font-size: 4em;
     letter-spacing: -2px;
 }
 
@@ -47,4 +47,58 @@ h1 strong {
 
 img.about {
     opacity: 0.5;
+}
+
+.blurbs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blurbs p {
+    margin: 0 20px;
+    flex: 1;
+    background-color: #48484e;
+    border-radius: 50px;
+    padding: 40px;
+    font-size: 1.2em;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+.buttons button {
+    border-radius: 20px;
+    height: 40px;
+    width: 120px;
+
+    background: rgb(34,193,195);
+    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    border: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+
+.posts {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 65%;
+   
+}
+
+.posts p{
+    margin: 0 20px;
+    flex: 1;
+    background-color: #48484e;
+    border-radius: 50px;
+    padding: 40px;
+    font-size: 1.2em;
+    line-height: 1.5;
 }
